@@ -1,4 +1,6 @@
 import './style.scss';
+
+//Remember to fix import method for library to optimise bundle size at the end!
 import './libs/materialize/js/materialize.js';
 import './libs/materialize/css/materialize.css';
 
