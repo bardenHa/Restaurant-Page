@@ -3,3 +3,22 @@
 @import './pages/about';
 @import './pages/home';
 @import './pages/menu';
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url(/src/data/fonts/CormorantGaramond-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond Light';
+  src: url(/src/data/fonts/CormorantGaramond-LightItalic.ttf);
+}
+
+:root {
+  font-family: 'Cormorant Garamond';
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'Cormorant Garamond';
+}

@@ -7,27 +7,33 @@
     <title>Document</title>
 </head>
 <body>
-    <!--Navbar-->
-    <header>
-        
-    </header>
     <!--Tabbed content-->
     <div id="content">
-        <h1>Test</h1>
-        
-        <!-- Modal Trigger -->
-        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
-
-        <!-- Modal Structure -->
-        <div id="modal1" class="modal">
-            <div class="modal-content">
-            <h4>Modal Header</h4>
-            <p>A bunch of text</p>
+        <header class="">
+            <!--Navbar-->
+            <nav class="nav-wrapper transparent">
+                <div class="container">
+                    <a href="" class="brand-logo">THE GARRISON</a>
+                    <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                        <img src="/src/data/icons/menu_white_24dp.svg" alt="">
+                    </a>  
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                    <ul class="sidenav grey lighten-2" id="mobile-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container center">
+                <h1>Eat. Drink. Enjoy.</h1>
             </div>
-            <div class="modal-footer">
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
-            </div>
-        </div>
+        </header>
+        <!--Footer-->
     </div>
 </body>
 <script src="./main.js"></script>

@@ -1,0 +1,18 @@
+header {
+    background: url(/src/data/images/header-2.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+
+    h1 {
+        font-size: 118px;
+        color: white;
+        margin-top: 15rem;
+    }
+}
+
+@media screen and (max-width: 670px){
+    header {
+        min-height: 500px;
+    }
+}
